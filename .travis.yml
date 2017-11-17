@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: Bi5GlWKTaE6tQm4DpCvWPe1B71KgALfF+3Xjd739wHWs/0dCyrhg/+t2pV2aaE5G3hins9bST8tnOYwqzbX7YeHlrc/n2CMu9/z2HBglSPHCG8/cDO4mBdiLzn89tyHy/m/V+ePQnfthwrzmsI1UHmR4NHWmybNalrsvszNtk2LaCPFjaY/3WsRUnBqakYm8isuPbGQtP5ezJtm1YTk+GY4Q1+cvuFvr3reMLV1AdEl8xaKO73fWYsV7RxW9eok4elTN8NB+YTu96c+DCbSU435Jn9kw6McyXQ2cFnwsFSac4HB5D6Z8yoxQqLyrBqWgMyDoKApA3wCTSiPWW0qvFdbG8A8irWn2Xn69MfxEZLszBWu3PoLLfwmTY0I0Y7gk1imnDTGg1f/gVz9ei+utWYuxNi5HVc/cPBgZ3vTnE+X4R7Fy61Xvpf3Zq5dA4KtI31ZTocMtxUEEC1lkEM90p43E6wNOLzYqUZHfFemJlDbx6TMfHnOd9mcsSaBT1ZEs6T59Prx+Y3Va2CUD/9yz1P9IJULrZu5FC/igU9MU1RQw85JB6LlJAYuy83KaIZgpxKTYvlPjbKp5D7Fc1hCD7uMwunf2ZX1J6/kQrpEHh+igazdsau/HJx/vXFiwHRWuGlwZ9YE3ISyWwCcUUwzt46bM0i57eYJCOMl73aYL3yo=
+  app: infinite-dawn-93728
+  on:
+    repo: nicoledanielle/node-shopping-list-integration-tests
